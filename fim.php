@@ -17,5 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Rua: $street";
     echo "Complemento: $complement";
     echo "Cidade : $city";
+    echo "Estado: $stat";
+    echo "Cep : $cep";
 }
 ?>
