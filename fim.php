@@ -4,11 +4,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
  $name =$_POST["nome"];
  $email =$_POST["email"];
  $phone = $_POST["telefone"];
- $street =$_POST['idrua'];
- $complement =$_POST['idcomplemento'];
- $city =$_POST['idcidade'];
- $stat =$_POST['idestado'];
- $cep =$_POST['idcep'];
+ $street =$_POST["rua"];
+ $complement =$_POST["complemento"];
+ $city =$_POST["cidade"];
+ $stat =$_POST["estado"];
+ $cep =$_POST["cep"];
 
 
     echo "Nome: $name";
